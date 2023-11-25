@@ -22,7 +22,7 @@ public class Menu {
                     ruta += "/";
                     return ruta;
                 } else {
-                    System.out.println("La ruta que has introduit no existeix o no es una carpeta ");
+                    System.out.println("La ruta que has introduit no existeix");
                 }
             } else if (opcio.equalsIgnoreCase("no")) {
                 ruta = "src/Files/";
